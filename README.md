@@ -58,7 +58,7 @@ These are defined in your `names` list and matched to class indices in model out
 Open `Main.ipynb` in Jupyter Notebook or VS Code and run the cells step by step:
 
 1. **Label Conversion:** Converts raw labels to YOLO OBB format.
-2. **Training:** Trains the YOLOv1-OBB model on your dataset.
+2. **Training:** Trains the YOLOv11-OBB model on your dataset.
 3. **Testing:** Runs inference on a sample image and saves the result as `predicted_output.png`.
 
 ---
