@@ -67,10 +67,16 @@ Open `Main.ipynb` in Jupyter Notebook or VS Code and run the cells step by step:
 
 ![Sample Prediction](predicted_output.png)
 
-```
-OBB 0: Center=(0.5, 0.5), Size=(0.1, 0.2), Angle=45.0, Confidence=0.98, Class=plane
-...
-```
+Speed: 6.7ms preprocess, 155.8ms inference, 16.6ms postprocess per image at shape (1, 3, 544, 640)
+OBB 0: Center=(592.8, 603.5), Size=(108.6, 107.5), Angle=0.0, Confidence=0.89, Class=0.0
+OBB 1: Center=(401.9, 189.9), Size=(142.0, 147.4), Angle=0.0, Confidence=0.89, Class=0.0
+OBB 2: Center=(456.5, 529.4), Size=(121.9, 121.6), Angle=0.0, Confidence=0.89, Class=0.0
+OBB 3: Center=(124.9, 389.2), Size=(154.1, 155.5), Angle=0.1, Confidence=0.89, Class=0.0
+OBB 4: Center=(716.8, 479.7), Size=(85.2, 74.7), Angle=1.5, Confidence=0.86, Class=0.0
+OBB 5: Center=(772.5, 532.8), Size=(90.6, 90.4), Angle=1.6, Confidence=0.85, Class=0.0
+OBB 6: Center=(528.3, 563.1), Size=(78.8, 76.6), Angle=0.0, Confidence=0.85, Class=0.0
+OBB 7: Center=(573.8, 287.5), Size=(81.2, 83.5), Angle=0.0, Confidence=0.83, Class=0.0
+OBB 8: Center=(628.8, 348.0), Size=(85.0, 85.6), Angle=1.6, Confidence=0.78, Class=0.0
 
 ---
 
